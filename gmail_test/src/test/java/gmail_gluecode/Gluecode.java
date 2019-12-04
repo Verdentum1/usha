@@ -40,7 +40,7 @@ public void method(Scenario s) throws Exception
 		 driver.manage().window().maximize();
 	      driver.get("https://www.gmail.com");
 	      ghp=new Gmail_homepage(driver);
-	      wait=new WebDriverWait(driver,20 );
+	      wait=new WebDriverWait(driver,30 );
 	      wait.until(ExpectedConditions.visibilityOf(ghp.userid));
 	}
 	@When ("^user id page is displayed$")
