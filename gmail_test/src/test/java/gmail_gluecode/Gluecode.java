@@ -48,7 +48,7 @@ public void method(Scenario s) throws Exception
 	{
 		if(ghp.userid.isDisplayed())
 		{
-			ss.write("User id test      failed");
+			ss.write("User id test passed");
 		}
 		ghp.uerid();
 	}
